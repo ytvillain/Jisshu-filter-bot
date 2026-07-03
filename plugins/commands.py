@@ -175,7 +175,7 @@ async def start(client: Client, message):
         ]
         reply_markup = InlineKeyboardMarkup(buttons)
         m = await message.reply_sticker(
-            "CAACAgUAAxkBAALP2Wh2AeiEH4Cksmtk0MfrZInKNYzVAAJ1GQACeBGoV6DyW6xkQdyuHgQ"
+            "CAACAgUAAxkBAAEFC-VqR5Zsk-1yRHNfdkUNYcJ0vlILlwACtxcAAqA1mFXmzziJRmBL_DwE"
         )
         await asyncio.sleep(1)
         await m.delete()
@@ -1383,7 +1383,7 @@ async def refer(bot, message):
         ]
     ]
     m = await message.reply_sticker(
-        "CAACAgQAAxkBAAEkt_Rl_7138tgHJdEsqSNzO5mPWioZDgACGRAAAudLcFGAbsHU3KNJUx4E"
+        "CAACAgUAAxkBAAEFC-VqR5Zsk-1yRHNfdkUNYcJ0vlILlwACtxcAAqA1mFXmzziJRmBL_DwE"
     )
     await m.delete()
     reply_markup = InlineKeyboardMarkup(btn)
