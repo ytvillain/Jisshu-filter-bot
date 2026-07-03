@@ -136,13 +136,13 @@ SEASONS = [f"season {i}" for i in range(1, 23)]
 START_IMG = (
     environ.get(
         "START_IMG",
-        "https://i.ibb.co/mVXktpbr/photo-2025-06-29-07-25-34-7521269178825703492.jpg",
+        "https://i.ibb.co/1YD71jN8/x.jpg",
     )
 ).split()
 FORCESUB_IMG = environ.get("FORCESUB_IMG", "https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg")
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split()
 PAYPICS = (
-    environ.get("PAYPICS", "https://i.ibb.co/ycqhRxFR/photo-2025-06-29-07-05-55-7521264106469326876.jpg")
+    environ.get("PAYPICS", "https://i.ibb.co/1YD71jN8/x.jpg")
 ).split()
 SUBSCRIPTION = environ.get(
     "SUBSCRIPTION", "https://graph.org/file/9f3f47c690bbcc67633c2.jpg"
