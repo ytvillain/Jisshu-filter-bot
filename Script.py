@@ -119,7 +119,7 @@ User - {}"""
 
     FILE_CAPTION = """<b><a href='https://t.me/arm_community_links'>{file_caption}</a></b>
 
-Provided by 𝖩𝗈𝗂𝗇➥ - <b><a href='https://t.me/+eD_tTUX0NEVmMDll'>ＭＵＳＴ ＪＯＩＮ ➥ ＡＲＭ ＣＯＭＭＵＮＩＴＹ</a></b>"""
+ＭＵＳＴ ＪＯＩＮ ➥ - <b><a href='https://t.me/+eD_tTUX0NEVmMDll'>ＡＲＭ ＣＯＭＭＵＮＩＴＹ</a></b>"""
 
     ALRT_TXT = """ᴡʜᴀᴛ ᴀʀᴇ ʏᴏᴜ sᴇᴀʀᴄʜɪɴɢ !?"""
 
