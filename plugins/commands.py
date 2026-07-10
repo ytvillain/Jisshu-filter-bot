@@ -43,6 +43,7 @@ from utils import (
 import re
 import base64
 from info import *
+from Jisshu.gate import wrap_with_gate
 
 logger = logging.getLogger(__name__)
 movie_series_db = JsTopDB(DATABASE_URI)
@@ -416,6 +417,7 @@ async def start(client: Client, message):
                     is_second_shortener,
                     is_third_shortener,
                 )
+            verify = await wrap_with_gate(verify)
             if is_third_shortener:
                 howtodownload = settings.get("tutorial_3", TUTORIAL_3)
             else:
