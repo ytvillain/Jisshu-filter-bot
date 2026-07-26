@@ -77,9 +77,9 @@ GATE_ENABLED = is_enabled(environ.get("GATE_ENABLED", "True"), True)
 GATE_API_URL = environ.get("GATE_API_URL", "https://shortner-protection-production-54ddd1.up.railway.app")   # e.g. https://your-protection-bot.up.railway.app
 GATE_API_KEY = environ.get("GATE_API_KEY", "M2MGSxfApLR4Gjv4M5ZaR7iiyxHHQYJ9")   # must match the protection bot's own GATE_API_KEY
 
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/HOW_TO_DOWNLOAD_WATCH_IN_TERABOX")
-TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/HOW_TO_DOWNLOAD_WATCH_IN_TERABOX")
-TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/HOW_TO_DOWNLOAD_WATCH_IN_TERABOX")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/HOW_TO_DOWNLOAD_AND_WATCH")
+TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/HOW_TO_DOWNLOAD_AND_WATCH")
+TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/HOW_TO_DOWNLOAD_AND_WATCH")
 VERIFY_IMG = environ.get(
     "VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg"
 )
